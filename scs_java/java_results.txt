@@ -1,0 +1,15 @@
+/Users/triforiana/Documents/facultate/scs/proiect/proiect/scs_java/src/main/java/JavaMeasurements.java:72: warning: [unchecked] unchecked generic array creation for varargs parameter of type List<Long>[]
+        writeResultsToCSV("java2_results.csv", avgTimeMemAllocList, avgTimeMemAccStaticList, avgTimeMemAccDynamicList, avgTimeThreadCrList, avgTimeThreadCSList, avgTimeAddListList, avgTimeRemoveList, avgTimeReverseList);
+                         ^
+/Users/triforiana/Documents/facultate/scs/proiect/proiect/scs_java/src/main/java/JavaMeasurements.java:225: warning: [unchecked] Possible heap pollution from parameterized vararg type List<Long>
+    private static void writeResultsToCSV(String fileName, List<Long>... lists) {
+                                                 ^
+2 warnings
+428
+74
+332
+190687
+5511
+4307
+52279
+2582
